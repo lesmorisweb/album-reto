@@ -1,0 +1,61 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card {
+  background-color: rgb(129, 125, 125);
+  border: 2px solid white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageContainer {
+  padding: 20px;
+  margin: 10px;
+  padding-top: 70px;
+  height: 200px;
+  width: 250px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.artist {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.title {
+  font-size: larger;
+}
+
+.date {
+  font-size: medium;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.style {
+  background-color: rgb(158, 41, 20);
+  border: 2px white solid;
+  border-radius: 50%;
+  text-align: center;
+  width: 60px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: oblique;
+  text-transform: uppercase;
+  justify-content: center;
+}
